@@ -1,0 +1,169 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+#################
+#  Ruler Traits #
+#################
+
+# Ruler-traits have the same parameters as leader-traits
+# leader_class has to be set to include "ruler" for a ruler to be valid for a trait
+# modifiers granted to rulers are applied to the entire Empire
+
+############# DIETY ##########################
+
+spiritualist_ruler_trait_mono = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_poly = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		building_build_cost_mult = -0.20
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_godemporer = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		ship_hitpoints_add = 150
+		navy_size_mult = 0.15
+		navy_size_add = 10
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_selfimprove = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		pop_happiness = 0.2
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+########## WORSHIP TYPE ########
+
+spiritualist_ruler_trait_sacrifice = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_temples = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_pilgrimage = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_bondofnature = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+############ FULFILMENT ################
+
+spiritualist_ruler_trait_divinehonor = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_divineright = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_divinewonder = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}
+
+spiritualist_ruler_trait_divineconversion = {
+	cost = 1000
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+	
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+}

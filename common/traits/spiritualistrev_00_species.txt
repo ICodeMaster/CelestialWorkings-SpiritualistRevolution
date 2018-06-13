@@ -1,0 +1,143 @@
+##################
+# Species Traits #
+##################
+
+
+spiritualist_trait_mono = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		migration_time = -0.1
+		pop_xenophobia = 0.2 
+		pop_ethic_shift = -0.20 
+		
+	}
+}
+
+spiritualist_trait_poly = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		pop_food_req_mult = -0.10
+	}
+}
+
+spiritualist_trait_godemporer = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_selfimprove = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+		pop_fortification_defense = 0.5 
+	}
+}
+
+############ WORSHIP ################
+
+spiritualist_trait_temples = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_sacrifice = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_pilgrimage = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_bondofnature = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+################ FULFILMENT ############
+
+spiritualist_trait_divinehonor = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_divineright = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_divineconversion = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}
+
+spiritualist_trait_divinewonder = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
+	modifier = {
+
+	}
+}

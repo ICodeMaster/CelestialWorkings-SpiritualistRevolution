@@ -1,0 +1,266 @@
+########################################
+########## Spiritualist Mod ############
+####### Written by ICodeMaster #########
+########################################
+
+namespace = celspiritualist_s
+
+country_event = {
+	id = celspiritualist_s.01
+	is_triggered_only = yes
+	title = "celspiritualist_s.01"
+	desc = "celspiritualist_s.01.desc"
+	picture = GFX_trader_international_1
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		country_event = { id = celspiritualist_s.02 days = 1 }
+	}
+	option = {
+		name = celspiritualist.mono
+		#trigger = {
+		#	
+		#}
+		set_country_flag = mono
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_mono
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_mono
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.poly
+		set_country_flag = poly
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_poly
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_poly
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.godemporer
+		set_country_flag = godemporer
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_godemporer
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_godemporer
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.selfimprove
+		set_country_flag = selfimprove
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_selfimprove
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_selfimprove
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = celspiritualist_s.02
+	is_triggered_only = yes
+	title = "celspiritualist_s.02"
+	desc = "celspiritualist_s.02.desc"
+	picture = GFX_trader_international_1
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		country_event = { id = celspiritualist_s.03 days = 1 }
+	}
+	option = {
+		name = celspiritualist.sacrifice
+		set_country_flag = sacrifice
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_sacrifice
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_sacrifice
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.temples
+		set_country_flag = temples
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_temples
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_temples
+					}
+				}
+			}
+		}
+		
+	}
+	
+	option = {
+		name = celspiritualist.pilgrimage
+		set_country_flag = pilgrimage
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_pilgrimage
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_pilgrimage
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.bondofnature
+		set_country_flag = bondofnature
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_bondofnature
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_bondofnature
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = celspiritualist_s.03
+	is_triggered_only = yes
+	title = "celspiritualist_s.03"
+	desc = "celspiritualist_s.03.desc"
+	picture = GFX_trader_international_1
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		#country_event = { id = celspiritualist.03 days = 1 } 
+		# Triggers attitude adjustments
+	}
+	option = {
+		name = celspiritualist.divinehonor
+		set_country_flag = divinehonor
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_divinehonor
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_divinehonor
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.divinewonder
+		set_country_flag = divinewonder
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_divinewonder
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_divinewonder
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.divineright
+		set_country_flag = divineright
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_divineright
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_divineright
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = celspiritualist.divineconversion
+		set_country_flag = divineconversion
+		hidden_effect = {
+			ruler = {
+				add_trait = spiritualist_ruler_trait_divineconversion
+			}
+			every_owned_planet = {
+				every_owned_pop = { 
+					modify_species = {
+						species = this
+						add_trait = spiritualist_trait_divineconversion
+					}
+				}
+			}
+		}
+	}
+}

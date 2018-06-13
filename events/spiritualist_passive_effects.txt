@@ -1,0 +1,8 @@
+########################################
+########## Spiritualist Mod ############
+####### Written by ICodeMaster #########
+########################################
+
+namespace = celspiritualist_passives
+
+

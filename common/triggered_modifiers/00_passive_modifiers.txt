@@ -1,0 +1,44 @@
+
+mono_empire_modifier = {
+	trigger = {
+		has_country_flag = mono
+	}
+	army_defense_morale_mult = 0.05
+	garrison_health = 1.05
+	max_rivalries = 1
+	navy_size_add = 2
+	navy_size_mult = 0.03
+}
+
+poly_empire_modifier = {
+	trigger = {
+		has_country_flag = poly
+	}
+	max_energy = 200
+	max_minerals = 500
+	num_tech_alternatives_add = 1
+}
+
+godemporer_empire_modifier = {
+	trigger = {
+		has_country_flag = godemporer
+	}
+	pop_slavery_tolerance = 0.05
+	pop_growth_req_mult = -.05
+	planet_colony_development_speed_mult = -0.1
+	pop_ethic_shift = -0.1
+	planet_clear_blocker_cost_mult = -0.1
+	planet_clear_blocker_time_mult = -0.4
+	pop_food_output = 0.1
+	
+}
+
+selfimprove_empire_modifier = {
+	trigger = {
+		has_country_flag = selfimprove
+	}
+	max_embassies = 1
+	country_society_tech_research_speed = 0.05
+	country_core_sector_planet_cap = 1
+	
+}

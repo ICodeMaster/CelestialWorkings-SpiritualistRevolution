@@ -1,0 +1,63 @@
+﻿l_english:
+    #### Traits Ruler #######
+    spiritualist_ruler_trait_divineconversion:0 "Fulfilment: Divine Conversion"
+    spiritualist_ruler_trait_divineright:0 "Fulfilment: Divine Right"
+    spiritualist_ruler_trait_divinehonor:0 "Fulfilment: Divine Honor"
+    spiritualist_ruler_trait_divinewonder:0 "Fulfilment: Divine Wonder"
+
+    spiritualist_ruler_trait_divineconversion_desc:0 "Through converting other pops, this species gains fulfilment of their holy goal."
+    spiritualist_ruler_trait_divineright_desc:0 "Through expanding to divine lands, this species gains fulfilment of their holy goal."
+    spiritualist_ruler_trait_divinehonor_desc:0 "Through warfare, this species gains fulfilment of their holy goal."
+    spiritualist_ruler_trait_divinewonder_desc:0 "By building shrines and monuments, this species gains fulfilment of their holy goal."
+
+    spiritualist_ruler_trait_mono:0 "Deity: Monotheism"
+    spiritualist_ruler_trait_poly:0 "Deity: Polytheism"
+    spiritualist_ruler_trait_godemporer:0 "Deity: God Emporer"
+    spiritualist_ruler_trait_selfimprove:0 "Deity: Self-Improvement"
+
+    spiritualist_ruler_trait_mono_desc:0 "Belief in one god, their god."
+    spiritualist_ruler_trait_poly_desc:0 "Belief in multiple gods."
+    spiritualist_ruler_trait_godemporer_desc:0 "Belief that their ruler is a god."
+    spiritualist_ruler_trait_selfimprove_desc:0 "Belief that self-improvement is the place to strive to."
+
+    spiritualist_ruler_trait_sacrifice:0 "Worship: Sacrifice"
+    spiritualist_ruler_trait_temples:0 "Worship: Temples"
+    spiritualist_ruler_trait_pilgrimage:0 "Worship: Pilgrimage"
+    spiritualist_ruler_trait_bondofnature:0 "Worship: Bonding"
+
+    spiritualist_ruler_trait_sacrifice_desc:0 "This species worships through sacrificial cerimonies."
+    spiritualist_ruler_trait_temples_desc:0 "This species worships by erecting grand temples"
+    spiritualist_ruler_trait_pilgrimage_desc:0 "This species worships by pilgrimaging to divine lands."
+    spiritualist_ruler_trait_bondofnature_desc:0 "This species worships by spending time connecting to nature."
+    
+    ##### Traits Species
+    spiritualist_trait_divineconversion:0 "Fulfilment: Divine Conversion"
+    spiritualist_trait_divineright:0 "Fulfilment: Divine Right"
+    spiritualist_trait_divinehonor:0 "Fulfilment: Divine Honor"
+    spiritualist_trait_divinewonder:0 "Fulfilment: Divine Wonder"
+
+    spiritualist_trait_divineconversion_desc:0 "Through converting other pops, this species gains fulfilment of their holy goal."
+    spiritualist_trait_divineright_desc:0 "Through expanding to divine lands, this species gains fulfilment of their holy goal."
+    spiritualist_trait_divinehonor_desc:0 "Through warfare, this species gains fulfilment of their holy goal."
+    spiritualist_trait_divinewonder_desc:0 "By building shrines and monuments, this species gains fulfilment of their holy goal."
+
+    spiritualist_trait_mono:0 "Deity: Monotheism"
+    spiritualist_trait_poly:0 "Deity: Polytheism"
+    spiritualist_trait_godemporer:0 "Deity: God Emporer"
+    spiritualist_trait_selfimprove:0 "Deity: Self-Improvement"
+
+    spiritualist_trait_mono_desc:0 "Belief in one god, their god."
+    spiritualist_trait_poly_desc:0 "Belief in multiple gods."
+    spiritualist_trait_godemporer_desc:0 "Belief that their ruler is a god."
+    spiritualist_trait_selfimprove_desc:0 "Belief that self-improvement is the place to strive to."
+
+    spiritualist_trait_sacrifice:0 "Worship: Sacrifice"
+    spiritualist_trait_temples:0 "Worship: Temples"
+    spiritualist_trait_pilgrimage:0 "Worship: Pilgrimage"
+    spiritualist_trait_bondofnature:0 "Worship: Bonding"
+
+    spiritualist_trait_sacrifice_desc:0 "This species worships through sacrificial cerimonies."
+    spiritualist_trait_temples_desc:0 "This species worships by erecting grand temples"
+    spiritualist_trait_pilgrimage_desc:0 "This species worships by pilgrimaging to divine lands."
+    spiritualist_trait_bondofnature_desc:0 "This species worships by spending time connecting to nature."
+    
